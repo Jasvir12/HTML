@@ -1,0 +1,77 @@
+/* CSS Document */
+#Container{
+width:1000px;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+margin-top:11px;
+margin-bottom:21px;
+border: 10px solid #000000;
+
+}
+
+#Header{
+height:200px;
+width:1000px;
+background-color:#000066;
+text-align:center;
+/*background-image: url(gallery-3.jpg);
+border-style:solid;*/
+}
+.logo{
+width:200px;
+height:200px;
+background-color:#00FFFF;
+
+float:left;
+
+}
+.logo1{
+width:800px;
+height:200px;
+background-color:#CC0000;
+float:right;
+}
+/*
+#menu{
+height:60px;
+background-color:#000;
+}
+*/
+#Sidebar1{
+	width:200px;
+	height:400px;
+	background-color:blue;
+	float:left;
+}
+.Mainbody{
+    width:1000px;
+	height:400px;
+	background-color:#0099FF;
+	float:right;
+	/*background-image:url(gallery-3.jpg);
+	/*background-image:url(../image/image5.jpg);*/
+}
+#Sidebar{
+	width:150px;
+	height:400px;
+	background-color:blue;
+	float:right;
+}
+
+.about
+{
+witdth:500px;
+height:400px;
+background-color:#0066FF;
+float:left;
+}
+#Footer{
+	height:140px;
+	
+	background:#000066;
+	width:1000px;
+	clear:both;
+	/*background-image:url(gallery-3.jpg);*/
+	
+}

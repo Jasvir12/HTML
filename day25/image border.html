@@ -1,0 +1,32 @@
+po<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#borderimg1 { 
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 round;
+}
+
+#borderimg2 { 
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 stretch;
+  
+}
+
+</style>
+</head>
+<body>
+<p id="borderimg1">Here, the image tiles to fill the area. The image is rescaled if necessary, to avoid dividing tiles.</p>
+<p id="borderimg2">Here, the image is stretched to fill the area.</p>
+<p>Here is the original image:</p>
+<img src="border.png">
+
+
+
+
+</body>
+</html>
+
+
